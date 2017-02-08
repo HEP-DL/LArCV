@@ -139,7 +139,7 @@ if [[ -d $MRB_TOP/srcs/argoneutcode/ ]]; then
 fi
 
 
-export LARCV_CXX=clang++
+export LARCV_CXX=g++
 if [ -z `command -v $LARCV_CXX` ]; then
     export LARCV_CXX=g++
     if [ -z `command -v $LARCV_CXX` ]; then
