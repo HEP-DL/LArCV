@@ -1,0 +1,6 @@
+add_subdirectory(Base)
+add_subdirectory(CPPUtil)
+add_subdirectory(CVUtil)
+add_subdirectory(DataFormat)
+add_subdirectory(Processor)
+add_subdirectory(PyUtil)
